@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        // Target latest version of ECMAScript.  Babel will take care of
+        // compiling down when required.
+        "target": "esnext",
+        "module": "commonjs",
+        // Search under node_modules for non-relative imports.
+        "moduleResolution": "node",
+        // Process & infer types from .js files.
+        "allowJs": false,
+        // Babel will generate the '.js' files for us, but tsc still needs
+        // to generate the .d.ts files.
+        "emitDeclarationOnly": true,
+        "declaration": true,
+        "outDir": "./dist",
+        // Enable strictest settings like strictNullChecks & noImplicitAny.
+        "strict": true,
+        // Import non-ES modules as default imports.
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        // List of folders to include type definitions from.
+        "typeRoots": [
+            "./node_modules/@types",
+            "./@types"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+  }

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src.js"],"names":["MyClass","secret"],"mappings":"AAAA,MAAMA,OAAN,CAAc;AACV,GAACC,MAAD,GAAU,QAAV;;AADU;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA","sourcesContent":["class MyClass {\n    #secret = 'secret';\n}"],"file":"src.js"}
