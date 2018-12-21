@@ -18,9 +18,6 @@ describe('tests', function() {
 
         // use our plugin to transform the source
         const out = babel.transform(source, {
-            parserOpts: {
-                plugins: ['classPrivateProperties'],
-            },
             plugins: [privateToPublic],
         });
 
